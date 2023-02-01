@@ -17,12 +17,12 @@
             <div class="col-md-4 item">
               <h3>Contact information</h3>
               <p>
-                Hämeenlinnan kaupunki<br />
-                PL 84<br />
+                Visahill 313<br />
+                PL 010<br />
                 13100 Hämeenlinna<br />
-                Puh. 03 1264
+                Puh. 03 1234
                 <a class="email" href="#footer"
-                  ><br /><br />visamaki@visamaki.fi</a
+                  ><br /><br />visahill@visamaki.fi</a
                 >
               </p>
               <p><a class="terms" href="#footer">Website terms of use</a></p>
@@ -99,7 +99,7 @@
               </div>
             </div>
             <div class="row justify-content-center">
-              <p class="copyright">Team 3 © 2023</p>
+              <p class="copyright">JFKoskinen © 2023</p>
             </div>
           </div>
         </div>

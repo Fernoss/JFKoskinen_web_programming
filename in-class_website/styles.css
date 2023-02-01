@@ -6,7 +6,7 @@
 /* FOR PHP */
 h1,
 h3 {
-  color: #eae3d2;
+  color: #fafafa;
 }
 .text_for_php table,
 th,
@@ -20,18 +20,20 @@ td {
 }
 .text_for_php {
   margin: 16px 16px 20px;
-  color: #fff;
+  color: #e4e4e7;
 }
 .list-group-item {
-  background-color: #000000;
-  color: #fff;
+  background-color: #27272a !important;
+  color: #e4e4e7;
+  padding-top: 20px;
 }
 .p_list li {
   padding-top: 10px;
+  margin-top: 10px;
 }
 /* End of PHP */
 body {
-  background-color: rgb(36, 55, 99, 255);
+  background-color: #27272a;
 }
 .navbar {
   background-color: #ff6e31 !important;
