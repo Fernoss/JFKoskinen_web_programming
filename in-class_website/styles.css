@@ -11,12 +11,14 @@ h3 {
 .text_for_php table,
 th,
 td {
-  border: 1px solid white;
+  border: 2px solid white;
   border-collapse: collapse;
+  width: 50%;
+  height: auto;
 }
 .text_for_php th,
 td {
-  background-color: #ff6e31;
+  background-color: #18181b;
 }
 .text_for_php {
   margin: 16px 16px 20px;
