@@ -19,7 +19,15 @@ td {
   background-color: #ff6e31;
 }
 .text_for_php {
+  margin: 16px 16px 20px;
   color: #fff;
+}
+.list-group-item {
+  background-color: #000000;
+  color: #fff;
+}
+.p_list li {
+  padding-top: 10px;
 }
 /* End of PHP */
 body {

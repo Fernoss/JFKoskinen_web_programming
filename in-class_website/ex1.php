@@ -59,5 +59,5 @@ $g3 = 5;
 </table> <!-- End of table -->
 <!-- Task 4, image -->
 <h3>Image</h3>
-<img src="../images/DevEnv.png" alt="picture of development enviroment" style="width: 75%; height: auto;">
+<img src="./pictures/dev_env.png" alt="picture of development enviroment" style="width: 75%; height: auto;">
 <?php include "footer.php" ?>
