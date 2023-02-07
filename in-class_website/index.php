@@ -31,5 +31,4 @@ include"header.php" ?>
         recusandae nihil porro libero adipisci dicta, ullam cupiditate velit impedit voluptate atque ab veniam?
     </li>
 </ul>
-
 <?php include "footer.php" ?>
