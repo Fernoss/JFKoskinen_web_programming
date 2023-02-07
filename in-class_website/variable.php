@@ -24,6 +24,7 @@ include"header.php" ?>
   
 </form>
 <br>
+<hr>
 <h5>3. Prepare a simple html table.</h5>
 
 <h3>Table</h3>
@@ -58,6 +59,7 @@ $g3 = 5;
 </table> <!-- End of table -->
 
 <br>
+<hr>
 <h5>4. Write a PHP script with two string variables.</h5>
 <?php
 $text1 = "Popular Linux distributions[18][19][20] include Debian, Fedora Linux, and Ubuntu, the latter of which itself consists of many different distributions and modifications, including Lubuntu and Xubuntu. Commercial distributions include Red Hat Enterprise Linux and SUSE Linux Enterprise.";
@@ -65,6 +67,8 @@ $text2 = "Desktop Linux distributions include a windowing system such as X11 or 
 $text3 = $text1 . $text2;
 echo strlen($text3);
 ?>
+<br>
+<hr>
 <h5>5. Write a script to add up the numbers: 298, 234, 46.</h5>
 
 <?php 
@@ -76,7 +80,19 @@ $total = $num1 + $num2 + $num3;
 echo "\nNumbers: 298, 234 and 46, total = $total";
 
 ?>
+<br>
+<hr>
+<h5>6. Write a PHP script to detect the browser being used to view your pages.</h5>
 
+<?php
+echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
 
+// $browser = get_browser(null, true);
+// print_r($browser);
+?>
+
+<br>
+<hr>
+<h5>7. Write a PHP script in the footer section of your universal footer just below the Copyright information to display the last modification time of a file.</h5>
 
 <?php include "footer.php" ?>
