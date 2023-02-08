@@ -49,7 +49,7 @@
               <a class="nav-link" href="variable.php"><b>Exercise 3</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="contactus.php"><b>Contact Us</b></a>
+              <a class="nav-link" href="controlflow.php"><b>Exercise 4</b></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link" href="#link4"><b>Empty</b></a>

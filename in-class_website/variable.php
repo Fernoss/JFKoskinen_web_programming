@@ -19,7 +19,7 @@ include"header.php" ?>
   <!--<label for="date">Date:</label><br>
   <input type="date" name="date" value="DD.MM.YYYY"><br> -->
   <div class="row">
-    <input class="form-control" type="submit" value="Submit">
+    <input class="form-control" type="submit" value="Submit" name="Submit">
   </div>
   
 </form>
