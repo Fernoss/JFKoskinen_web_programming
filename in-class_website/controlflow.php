@@ -86,6 +86,10 @@ switch (true) {
         echo "<br>";
         echo "You are using Mozilla Firefox";
         break;
+    case strpos($user_agent, 'Safari'):
+            echo "<br>";
+            echo "You are using Safari";
+            break;
     default:
         echo "<br>";
         echo "Browser can not be defined";
