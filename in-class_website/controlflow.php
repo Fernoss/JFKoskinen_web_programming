@@ -54,9 +54,15 @@ echo $colour == "red" ? "The colour is red." : "The color is not red";
     </div>
   </div>
   <div class="row">
-    <input class="form-control" type="submit" value="Submit" name="Submit1" >
+    <input class="form-control" type="submit" value="Submit" name="Submit1" onclick="submitAlert()">
   </div>
 </form>
+
+<script>
+function submitAlert() {
+  alert("Submit successfully sent!");
+}
+</script>
 
 
 <br>
