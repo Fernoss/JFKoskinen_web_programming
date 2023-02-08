@@ -74,22 +74,22 @@ $user_agent = $_SERVER['HTTP_USER_AGENT'];
 // }
 // Using switch statement instead of if-elseif
 switch (true) {
-    case strpos($user_agent, 'Chrome'):
-        echo "<br>";
-        echo "Your are using Google Chrome";
-        break;
     case strpos($user_agent, 'Edg'):
         echo "<br>";
         echo "You are using Microsoft Edge";
         break;
-    case strpos($user_agent, 'Mozilla'):
+    case strpos($user_agent, 'Chrome'):
+        echo "<br>";
+        echo "Your are using Google Chrome";
+        break;
+    case strpos($user_agent, 'Firefox'):
         echo "<br>";
         echo "You are using Mozilla Firefox";
         break;
     case strpos($user_agent, 'Safari'):
-            echo "<br>";
-            echo "You are using Safari";
-            break;
+        echo "<br>";
+        echo "You are using Safari";
+        break;
     default:
         echo "<br>";
         echo "Browser can not be defined";
