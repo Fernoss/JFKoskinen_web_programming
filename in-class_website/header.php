@@ -52,7 +52,7 @@
               <a class="nav-link" href="controlflow.php"><b>Exercise 4</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#link4"><b>Empty</b></a>
+              <a class="nav-link" href="arrays.php"><b>Exercise 5</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#footer"><b>Empty</b></a>
