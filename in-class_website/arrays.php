@@ -73,26 +73,81 @@ Krsort($courses3);
 
     for($i = 0; $i < count($courses4); $i++) {
         $courses4[$i] = strtoupper($courses4[$i]);
-        echo $courses4[$i] . "<br>";
+        echo "<li>" . $courses4[$i] . "<br>";
     }
 ?>
 
 <br>
 <hr>
-<h5>5. PHP script to calculate and display average temperature, five lowest and highest temperatures.</h5>
+<h5>5. List all your favorite colors and their hexadecimal equivalents.</h5>
 <?php
-
+    $fav_color = array('Black' => '#000000 ', 'White' => '#FFFFFF', 'Khaki' => '#C3B091');
+    foreach ($fav_color as $key => $hex) {
+    echo "<li>My favourite colors are $key: $hex <br> ";
+    }
 ?>
 
 <br>
 <hr>
-<h5>6. </h5>
+<h5>6. PHP script to calculate and display average temperature, five lowest and highest temperatures.</h5>  
+<?php
+    echo "<h4> Calculation average temperature: </h4>";
+    $month_temp = "78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 81, 76, 73,
+    68, 72, 73, 75, 65, 74, 63, 67, 65, 64, 68, 73, 75, 79, 73";
+// what is explode and what does the below code do? : 
+/*
+A built-in function that splits a string into different strings.
+While splitting the string we use separator for e.g. " " or "," that splits the string wherever the separator parameter occurs. 
+This function returns an array of strings as a result of splitting the original string.
+There is no need to parse/change value type.
+So in this code we use separator "," from $month_temp.
+*/
+$temp_array = explode(',', $month_temp);
+$tot_temp = 0;
+// What is count?
+/*
+Counts all elements in an array when used with an array. 
+Here count() counts all the elements inside $temp_array that we defined previously
+*/
+$temp_array_length = count($temp_array);
+foreach($temp_array as $temp)
+{
+ $tot_temp += $temp;
+}
+ $avg_high_temp = $tot_temp/$temp_array_length;
+ echo "Average Temperature is : ".$avg_high_temp."
+"; 
+// what does sort do?
+/*
+Sorts array in place by values in ascending order. To sort otherways we use
+for example rsort(), Krsort() etc.
+*/
+sort($temp_array);
+echo "<br> List of five lowest temperatures :";
+for ($i=0; $i< 5; $i++)
+{ 
+echo $temp_array[$i].", ";
+}
+echo "<br>List of five highest temperatures :";
+// explain the following loop
+/*
+We use for loop to loop through the array and printing our five highest array values. 
+So here we assign for $i $temp_array_length - 5 in order to get the total values of an array except the last 5. 
+This allows as to loop through the remaining 5 when $i < $temp_array_length. 
+This could also be done that after five lowest temperature loop we use rsort($temp_array) and loop through 
+the list where $i = 0 etc. 
+*/
+for ($i=($temp_array_length-5); $i< ($temp_array_length); $i++)
+{
+echo $temp_array[$i].", ";
+}
+?>
 
 <br>
 <hr>
 <h5>Extra, calculator</h5>
 <form action="" method="get">
-  <div class="row">
+  <div class="row" style="color: black;">
         <div class="col">
             <input class="form-control" type="number" step="any" placeholder="Enter your first number" name="num1" required><br>
         </div>
