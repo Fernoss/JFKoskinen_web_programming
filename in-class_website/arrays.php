@@ -91,7 +91,11 @@ Krsort($courses3);
 <hr>
 <h5>6. PHP script to calculate and display average temperature, five lowest and highest temperatures.</h5>  
 <?php
-    echo "<h4> Calculation average temperature: </h4>";
+echo "Recorded temperatures : 78, 60, 62, 68, 71, 68, 73, <br>
+    85, 66, 64, 76, 63, 75, 76, 73, 68, 62, 73, 72, 65, <br>
+    74, 62, 62, 65, 64, 68, 73, 75, 79, 73 <br>";
+
+    echo "<br><h4> Calculation average temperature: </h4>";
     $month_temp = "78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 81, 76, 73,
     68, 72, 73, 75, 65, 74, 63, 67, 65, 64, 68, 73, 75, 79, 73";
 // what is explode and what does the below code do? : 
@@ -135,7 +139,7 @@ We use for loop to loop through the array and printing our five highest array va
 So here we assign for $i $temp_array_length - 5 in order to get the total values of an array except the last 5. 
 This allows as to loop through the remaining 5 when $i < $temp_array_length. 
 This could also be done that after five lowest temperature loop we use rsort($temp_array) and loop through 
-the list where $i = 0 etc. 
+the list where $i = 0 to get the first 5 values of the reversed list.
 */
 for ($i=($temp_array_length-5); $i< ($temp_array_length); $i++)
 {
