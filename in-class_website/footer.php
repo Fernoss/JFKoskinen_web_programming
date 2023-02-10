@@ -8,7 +8,7 @@
             <a href="#">
               <img
                 class="hameenlinna-logo"
-                src="pictures/hameenlinna-logo.png"
+                src="../in-class_website/pictures/hameenlinna-logo.png"
                 width="60"
               />
             </a>
@@ -61,7 +61,7 @@
                     target="_blank"
                   >
                     <img
-                      src="pictures/facebook.png"
+                      src="../in-class_website/pictures/facebook.png"
                       alt="facebook"
                       width="50"
                       height="50"
@@ -71,7 +71,7 @@
                     target="_blank"
                   >
                     <img
-                      src="pictures/insta.png"
+                      src="../in-class_website/pictures/insta.png"
                       alt="instagram"
                       width="50"
                       height="50"
@@ -80,7 +80,7 @@
                 <p>
                   <a href="https://twitter.com/hmlkaupunki" target="_blank">
                     <img
-                      src="pictures/twitter.png"
+                      src="../in-class_website/pictures/twitter.png"
                       alt="twitter"
                       width="50"
                       height="50"
@@ -90,7 +90,7 @@
                     target="_blank"
                   >
                     <img
-                      src="pictures/youtube.png"
+                      src="../in-class_website/pictures/youtube.png"
                       alt="twitter"
                       width="50"
                       height="50"

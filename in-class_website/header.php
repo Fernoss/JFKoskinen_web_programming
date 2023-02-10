@@ -10,7 +10,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../in-class_website/styles.css" />
   </head>
   <body>
     <nav
@@ -43,25 +43,25 @@
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="ex1.php"><b>Exercise 1</b></a>
+              <a class="nav-link" href="../in-class_website/ex1.php"><b>Exercise 1</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="variable.php"><b>Exercise 3</b></a>
+              <a class="nav-link" href="../in-class_website/variable.php"><b>Exercise 3</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="controlflow.php"><b>Exercise 4</b></a>
+              <a class="nav-link" href="../in-class_website/controlflow.php"><b>Exercise 4</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="arrays.php"><b>Exercise 5</b></a>
+              <a class="nav-link" href="../in-class_website/arrays.php"><b>Exercise 5</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer"><b>Empty</b></a>
+              <a class="nav-link" href="../crud/create.php"><b>CRUD</b></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <center>
-      <img class="img-fluid" src="pictures/macbook.jpg" alt="hameenlinna" id="header-image"/>
+      <img class="img-fluid" src="../in-class_website/pictures/macbook.jpg" alt="hameenlinna" id="header-image"/>
     </center>
     <section class="text_for_php">
